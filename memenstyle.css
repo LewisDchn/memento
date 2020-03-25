@@ -1,0 +1,38 @@
+#logo {
+    width: 125px;
+    height: 80px;
+}
+body  {
+    background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
+    background-size: cover;
+}
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(171, 1, 49, 0.5);
+    text-align: left;
+  }
+li {
+    display: inline;
+   }
+
+li a {
+    display: inline-flex;
+    color: #000;
+    padding: 15px 55px;
+    text-decoration: floralwhite ;
+    text-align: center;
+  }
+
+.active {
+    background-color: rgb(240, 189, 24);
+    float: right;
+  }
+  
+  /* Change la couleur au survol/hover */
+li a:hover {
+    background-color: rgb(73, 73, 73);
+    color: white;
+  }
