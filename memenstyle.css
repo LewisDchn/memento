@@ -1,12 +1,8 @@
-#logo {
-    width: 125px;
-    height: 80px;
-}
-body  {
+#fond  {
     background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
     background-size: cover;
     font-family: "Baloo 2", cursive;
-    
+    text-align: center;
 }
 ul { /*paramètre bandeau */
     position: -webkit-sticky;
@@ -19,17 +15,18 @@ ul { /*paramètre bandeau */
     overflow: hidden;
     background-color: rgba(171, 1, 49, 0.5);
     text-align: left;
-  }
+    border-radius: 20px;  
+}
 li { /*position boutons */
     display: inline;
    }
-  /*texte bandeau / textdeco ??? */
-li a {
+  /*texte bandeau*/
+li a, .dropbtn {
     display: inline-flex;
     color: rgb(0, 0, 0);
     padding: 15px 55px;
-    text-align: center;
-    text-decoration: rgb(0, 0, 0) ;
+    text-align: left;
+    text-decoration: none;
 
   }
    /*position et couleur bouton plus */
@@ -39,7 +36,38 @@ li a {
   }
   
   /* Change la couleur au survol/hover */
-li a:hover {
+li a:hover, .dropdown:hover .dropbtn {
     background-color: rgb(73, 73, 73);
     color: wheat;
-  }
+    transition-duration: 0.4s; 
+}
+li.dropdown {
+    display: inline;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgba(171, 1, 49, 0.5);
+    min-width: 160px;
+    box-shadow: rgb(73, 73, 73);
+    z-index: 1000;
+}
+.dropdown-content a {
+    color: wheat;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    float: left;
+}
+ /*Afficher le menu déroulant en survol*/
+.dropdown-content a:hover {
+    background-color: rgb(73, 73, 73);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
