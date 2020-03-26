@@ -1,0 +1,97 @@
+html : 
+
+
+      Les bases 
+
+- <!Doctype html> toujours en haut du code suivie de <html> </html> 
+- <head> </head> <--haut du code parti non visible peut servir pour mettre le <title></title> <--titre de la page web dans l'onglet du navigateur et sur les moteurs de recherche.
+- <meta charset="UTF-8"/> <--indique le type d'encodage utilisé suivie de /> (balise auto fermante).
+
+
+      Le texte
+
+- <body></body> est le corp du message il vient apres </head>
+- <h1></h1>est un titre de grande taille et le 1er a utilisé il peux y avoir plusieurs titres, les suivant s'appellerons <h2></h2> <h3></h3> ainsi de suite 
+- <p></p> est un paragraphe 
+- <br> en fin de ligne indique un saut de ligne        
+- <hr> définit une rupture thématique dans la page (tire un long trait)
+     
+      Les attributs
+
+- tout les éléments HTML peuvent avoir des attributs
+- Les attributs fournissent des informations supplementaires au sujet d'un élément
+- Les attributs sont toujours spécifiés dans la balise du début
+- Les attributs viennent généralement en paires comme name="valeur"      
+    
+      
+     Les styles (hors doc.css)
+
+- réglage du style d'un élément, peut être fait avec l'attribut style="..."
+- Le CSS style="background-color:red;" définit la couleur d'arrière-plan pour un élément
+- Le CSS style="color:blue; définit la couleur du texte pour un élément 
+- Le CSS style="font-family:verdana; définit la police à utiliser pour un élément     
+- Le CSS style="font-size:300%; définit la taille du texte pour un élément    
+- Le CSS style="text-align:center; définit l'alignement du texte horizontal pour un élément
+
+
+      Les liens
+
+- Utilise l'élément <a> pour définir un lien
+- L'attribut href="" pour définir l'adresse du lien
+- L'attribut target="" pour définir où ouvrir le document lié
+- L'élément <img> (<a> à l' intérieur) permet d'utiliser une image en tant que lien
+- Utilise l'attribut id="..." pour définir les signets dans une page
+- Utilise l'attribut href="#... " pour créer un lien vers le signet
+
+
+       Les images
+
+- La valeur de l'attribut  alt="..." doit décrire l'image ( obligatoire pour valider une page )
+- La balise <img> est vide, elle contient uniquement des attributs, et ne dispose pas d'une balise de fermeture.
+- L'attribut src="url" spécifie l'URL (adresse web) de l'image
+- L'attribut style="width:500px;height:600px;" (ou width="500" height="600") pour spécifier la largeur et la hauteur d'une image.
+- le CSS style="float:left" pour laisser flotter l' image à droite ou à gauche d'un texte
+           
+      
+       Les tableaux
+
+- Utilise le code HTML <table> pour définir un tableau
+- Utilise le code HTML <tr> pour définir une ligne du tableau
+- Utilise le code HTML <td> pour définir un ensemble de données du tableau
+- Utilise le code HTML <th> pour définir un en-tête de tableau
+- Utilise le code HTML <caption> pour définir une légende du tableau
+- Utilise la propriété CSS border pour définir une frontière
+- Utilise la propriété CSS border-collapse pour réduire les bordures des cellules
+- Utilise la propriété CSS paddingpropriété pour ajouter un rembourrage aux cellules
+- Utilise la propriété CSS text-align pour aligner le texte cellulaire
+- Utilise la propriété CSS border-spacing pour définir l'espacement entre les cellules
+- Utilise l'attribut colspan pour faire en sorte qu'une cellule couvre plusieurs colonnes
+- Utilise l'attribut rowspan pour qu'une cellule s'étende sur plusieurs lignes
+- Utilise l'attribut id pour définir de façon unique une table
+      
+      Les listes
+
+- Utilise le code HTML <ul>élément pour définir une liste non ordonnée
+- Utilise le CSS list-style-typepropriété pour définir le marqueur d'élément de liste
+- Utilise le code HTML <ol>élément pour définir une liste ordonnée
+- Utilise le code HTML typeattribut pour définir le type de numérotation
+- Utilise le code HTML <li>élément pour définir un élément de liste
+- Utilise le code HTML <dl>élément pour définir une liste de description
+- Utilise le code HTML <dt>élément pour définir le terme de description
+- Utilise le code HTML <dd>élément pour décrire l'expression dans une liste de description
+- Les listes peuvent être imbriquées à l'intérieur des listes
+- Liste des éléments peuvent contenir d'autres éléments HTML
+- Utilisez la propriété CSS float:leftou display:inlinepour afficher une liste horizontale
+
+      Les formulaires 
+
+
+     CSS:
+
+      Les bases
+      Les selecteurs 
+      Le traitrment de texte
+
+     GIT:
+
+      Les commandes de base 
