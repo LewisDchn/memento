@@ -5,8 +5,14 @@
 body  {
     background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg);
     background-size: cover;
+    font-family: "Baloo 2", cursive;
+    
 }
-ul { 
+ul { /*paramètre bandeau */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,18 +20,19 @@ ul {
     background-color: rgba(171, 1, 49, 0.5);
     text-align: left;
   }
-li {
+li { /*position boutons */
     display: inline;
    }
-
+  /*texte bandeau / textdeco ??? */
 li a {
     display: inline-flex;
-    color: #000;
+    color: rgb(0, 0, 0);
     padding: 15px 55px;
-    text-decoration: floralwhite ;
     text-align: center;
-  }
+    text-decoration: rgb(0, 0, 0) ;
 
+  }
+   /*position et couleur bouton plus */
 .active {
     background-color: rgb(240, 189, 24);
     float: right;
@@ -34,5 +41,5 @@ li a {
   /* Change la couleur au survol/hover */
 li a:hover {
     background-color: rgb(73, 73, 73);
-    color: white;
+    color: wheat;
   }
