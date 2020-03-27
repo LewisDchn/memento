@@ -72,25 +72,27 @@ html :
       Les listes
 
 - Utilise le code HTML <ul>élément pour définir une liste non ordonnée
-- Utilise le CSS list-style-typepropriété pour définir le marqueur d'élément de liste
-- Utilise le code HTML <ol>élément pour définir une liste ordonnée
-- Utilise le code HTML typeattribut pour définir le type de numérotation
-- Utilise le code HTML <li>élément pour définir un élément de liste
-- Utilise le code HTML <dl>élément pour définir une liste de description
-- Utilise le code HTML <dt>élément pour définir le terme de description
-- Utilise le code HTML <dd>élément pour décrire l'expression dans une liste de description
+- Utilise le CSS list-style-type pour définir le marqueur d'élément de liste
+- Utilise le code HTML <ol> pour définir une liste ordonnée
+- Utilise le code HTML type attribut pour définir le type de numérotation
+- Utilise le code HTML <li> pour définir un élément de liste
+- Utilise le code HTML <dl> pour définir une liste de description
+- Utilise le code HTML <dt> pour définir le terme de description
+- Utilise le code HTML <dd> pour décrire l'expression dans une liste de description
 - Les listes peuvent être imbriquées à l'intérieur des listes
 - Liste des éléments peuvent contenir d'autres éléments HTML
-- Utilisez la propriété CSS float:leftou display:inlinepour afficher une liste horizontale
+- Utilisez la propriété CSS float:left ou display:inline pour afficher une liste horizontale
 
       Les formulaires 
+
+-
 
 
      CSS:
 
       Les bases
       Les selecteurs 
-      Le traitrment de texte
+      Le traitement de texte
 
      GIT:
 
