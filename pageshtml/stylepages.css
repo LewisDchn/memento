@@ -46,6 +46,17 @@ h1{
 #forms th {
     background-color: rgba(255, 144, 34, 0.726);
 }
-#p1{
+#p0 {
     margin: 50px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+#p1 {
+    margin: 50px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+#p2 {
+    margin: 50px;
+    margin-top: 0px;
 }
